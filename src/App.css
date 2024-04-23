@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+} */
+header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(0, 21, 41);
+}
+.logo {
+  /* width:120px; */
+  height:31px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  margin: 10px 24px 2px 30px;
+  color: #fff;
+  float: left;
+}
+menu {
+  float: right;
+}
+.main-container {
+  height: calc(100vh - 46px);
+}
+.sideMenu {
+  /* width: 200px; */
+  height: 100%;
+}
+.content {
+  height: 100%;
 }
